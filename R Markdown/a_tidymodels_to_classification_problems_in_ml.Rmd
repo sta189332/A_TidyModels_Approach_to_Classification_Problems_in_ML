@@ -83,7 +83,9 @@ There are couples of things one can observed from above:
 
 One may use the bellow command to print every part of the tibble
 
-```{r view_all_data, include = TRUE}
+**Note**: I have not revealed the print here as I use __include = FALSE__.
+
+```{r view_all_data, include = FALSE}
 telco |> print( n = nrow(telco), width = ncol(telco))
 ```
 
